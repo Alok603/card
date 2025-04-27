@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(117, 105, 105);
+    opacity: 0.9;
+    border: 1px solid black;
+    margin: 10px auto;
+    border-radius: 14px;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    position: relative;
+    
+}
+
+.card-img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 14px;
+    position: relative;
+    
+    
+}
+.card-head{
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 30px;
+    width: 200px;
+    left: 25%;
+    background-color:lightgray;
+    opacity: 0.8;
+    top: -7px;
+    font-size: 20px;
+}
+.card-footer{
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 30px;
+    width: 200px;
+    left: 25%;
+    background-color: lightgray;
+    opacity: 0.5;
+   top: 210px;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    
+}
+.fa-heart{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 40px;
+    font-size: 1.2rem;
+}
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 40px;
+    font-size: 1.2rem;
+    color: lightgray;
+    opacity: 0.6;
+}
+.rating{
+    display: flex;
+    gap: 10px;
+    margin: 15px 40px;
+
+}
+.fa-star{
+    color: yellow;
+}
+
+.hr{
+    color: white;
+}
+
+
+@media (max-width:400px){
+    .container{
+        width: 95%;
+    }
+}
